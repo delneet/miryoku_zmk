@@ -7,6 +7,8 @@ U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA
 U_NA,              &kp RALT,          &u_to_U_DEV,       &u_to_U_SYM,       U_NA,              &kp LBRC,          &kp RBRC,          &kp LT,            &kp GT,            &kp TILDE,         \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp UNDER,         &kp U_NA,          &kp U_NA,          U_NP,              U_NP
 
+#define MIRYOKU_LAYER_MAPPING_DEV MIRYOKU_MAPPING
+
 #define MIRYOKU_LAYER_LIST \
 MIRYOKU_X(BASE,   "Base") \
 MIRYOKU_X(EXTRA,  "Extra") \
@@ -29,3 +31,5 @@ MIRYOKU_X(FUN,    "Fun")
 #define U_NUM    7
 #define U_SYM    8
 #define U_FUN    9
+#define U_MOUSE U_NAV
+
