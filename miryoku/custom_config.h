@@ -4,7 +4,7 @@
 #define MIRYOKU_LAYER_DEV \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              &kp LPAR,          &kp RPAR,          &kp EQUAL,         &kp MINUS,         &kp PIPE,          \
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp LBKT,          &kp RBKT,          &kp AMPS,          &kp CARET,         &kp COLON,         \
-U_NA,              &kp RALT,          &u_to_U_DEV,       &u_to_U_SYM,       U_NA,              &kp LBRC,          &kp RBRC,          &kp LT,            &kp GT,            &kp TILDE,         \
+U_NA,              &kp RALT,          &u_to_U_NUM,       &u_to_U_SYM,       U_NA,              &kp LBRC,          &kp RBRC,          &kp LT,            &kp GT,            &kp TILDE,         \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp UNDER,         &kp U_NA,          &kp U_NA,          U_NP,              U_NP
 
 #define MIRYOKU_LAYER_MAPPING_DEV MIRYOKU_MAPPING
@@ -15,11 +15,12 @@ MIRYOKU_X(EXTRA,  "Extra") \
 MIRYOKU_X(TAP,    "Tap") \
 MIRYOKU_X(BUTTON, "Button") \
 MIRYOKU_X(NAV,    "Nav") \
-MIRYOKU_X(DEV,    "Dev") \
+MIRYOKU_X(MOUSE,  "Mouse") \
 MIRYOKU_X(MEDIA,  "Media") \
 MIRYOKU_X(NUM,    "Num") \
 MIRYOKU_X(SYM,    "Sym") \
-MIRYOKU_X(FUN,    "Fun")
+MIRYOKU_X(FUN,    "Fun") \
+MIRYOKU_X(DEV,    "Dev") 
 
 #define U_BASE   0
 #define U_EXTRA  1
