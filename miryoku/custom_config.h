@@ -4,7 +4,7 @@
 #define MIRYOKU_LAYER_DEV \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              &kp LPAR,          &kp RPAR,          &kp EQUAL,         &kp MINUS,         &kp PIPE,          \
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp LBKT,          &kp RBKT,          &kp AMPS,          &kp CARET,         &kp COLON,         \
-U_NA,              &kp RALT,          &u_to_U_NUM,       &u_to_U_SYM,       U_NA,              &kp LBRC,          &kp RBRC,          &kp LESS_THAN,     &kp GREATER_THAN,  &kp TILDE,         \
+U_NA,              &kp RALT,          &u_to_U_NUM,       &u_to_U_SYM,       U_NA,              &kp LBRC,          &kp RBRC,          &kp COMMA,     &kp DOT,  &kp TILDE,         \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp UNDER,         U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_LAYER_MAPPING_DEV MIRYOKU_MAPPING
