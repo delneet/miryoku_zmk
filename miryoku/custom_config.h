@@ -1,6 +1,14 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
+// Colemak
+#define MIRYOKU_LAYER_BASE \
+&kp Q,             &kp W,             &kp F,             &kp P,             &kp G,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \
+U_MT(LGUI, A),     U_MT(LALT, R),     U_MT(LCTRL, S),    U_MT(LSHFT, T),    &kp D,             &kp H,             U_MT(LSHFT, N),    U_MT(LCTRL, E),    U_MT(LALT, I),     U_MT(LGUI, O),     \
+U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp V,             &kp B,             &kp K,             &kp M,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH),\
+U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_DEV, TAB),  U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
+
+
 #define MIRYOKU_LAYER_DEV \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              &kp LPAR,          &kp RPAR,          &kp EQUAL,         &kp MINUS,         &kp PIPE,          \
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp LBKT,          &kp RBKT,          &kp AMPS,          &kp CARET,         &kp COLON,         \
@@ -32,5 +40,5 @@ MIRYOKU_X(DEV,    "Dev")
 #define U_NUM    7
 #define U_SYM    8
 #define U_FUN    9
-#define U_MOUSE U_DEV
+#define U_MOUSE U_NAV
 
