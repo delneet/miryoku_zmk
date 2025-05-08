@@ -32,5 +32,5 @@ MIRYOKU_X(DEV,    "Dev")
 #define U_NUM    7
 #define U_SYM    8
 #define U_FUN    9
-#define U_MOUSE U_NAV
+#define U_MOUSE U_DEV
 
