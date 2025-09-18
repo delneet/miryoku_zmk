@@ -5,12 +5,12 @@
 #define MIRYOKU_EXTRA_COLEMAK
 #define MIRYOKU_CLIPBOARD_MAC
 
-/ {
-    kscan: kscan {
-        compatible = "zmk,kscan-gpio-matrix";
-        diode-direction = "col2row";
-        wakeup-source;
-    };
+/ { \
+    kscan: kscan { \
+        compatible = "zmk,kscan-gpio-matrix"; \
+        diode-direction = "col2row"; \
+        wakeup-source; \
+    }; \
 };
 
 #define MIRYOKU_LAYER_DEV \
