@@ -5,14 +5,6 @@
 #define MIRYOKU_EXTRA_COLEMAK
 #define MIRYOKU_CLIPBOARD_MAC
 
-/ { \
-    kscan: kscan { \
-        compatible = "zmk,kscan-gpio-matrix"; \
-        diode-direction = "col2row"; \
-        wakeup-source; \
-    }; \
-};
-
 #define MIRYOKU_LAYER_DEV \
 U_NA,              U_NA,              &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              &kp LPAR,          &kp RPAR,          &kp EQUAL,         &kp MINUS,         &kp PIPE,          \
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp LBKT,          &kp RBKT,          &kp AMPS,          &kp CARET,         &kp COLON,         \
