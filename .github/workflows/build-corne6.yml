@@ -8,3 +8,4 @@ jobs:
       board: '["nice_nano_v2"]'
       shield: '["corne_left nice_oled","corne_right nice_oled"]'
       modules: '["mctechnology17/zmk-nice-oled/main"]'
+      kconfig: '["CONFIG_ZMK_KEYBOARD_NAME=\"Corne 6\""]'
