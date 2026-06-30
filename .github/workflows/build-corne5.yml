@@ -1,5 +1,7 @@
-name: "Build Corne 6 nice_oled (vertical)"
+name: "Build Corne 5 nice_oled (vertical)"
+
 on: workflow_dispatch
+
 jobs:
   build:
     uses: ./.github/workflows/main.yml
