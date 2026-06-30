@@ -1,7 +1,5 @@
 name: "Build Corne 5 nice_oled (vertical)"
-
 on: workflow_dispatch
-
 jobs:
   build:
     uses: ./.github/workflows/main.yml
@@ -11,3 +9,8 @@ jobs:
       shield: '["corne_left nice_oled","corne_right nice_oled"]'
       modules: '["mctechnology17/zmk-nice-oled/main"]'
       kconfig: '["CONFIG_ZMK_KEYBOARD_NAME=\"Corne 5\""]'
+
+      # Pin ZMK to v0.3.0: the version zmk-nice-oled was tested against, and the
+      # last line before ZMK renamed nice_nano_v2 -> nice_nano (Zephyr 4.1).
+      # This is what fixes the "Board not found" error.
+      branches: '["zmkfirmware/zmk/v0.3.0"]'
