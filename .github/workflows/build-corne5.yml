@@ -8,7 +8,10 @@ jobs:
       board: '["nice_nano_v2"]'
       shield: '["corne_left nice_oled","corne_right nice_oled"]'
       # modules: '["mctechnology17/zmk-nice-oled/main"]'
-      modules: '["delneet/zmk-nice-oled/feat/more-animations","delneet/zmk-peripheral-animations/main"]'
+      # The modules input is a MATRIX AXIS: each array element is one build
+      # variant. Multiple modules for the same build go space-separated
+      # inside a single element.
+      modules: '["delneet/zmk-nice-oled/feat/more-animations delneet/zmk-peripheral-animations/main"]'
       kconfig: '["CONFIG_ZMK_KEYBOARD_NAME=\"Corne 5\""]'
 
       # Pin ZMK to v0.3.0: the version zmk-nice-oled was tested against, and the
